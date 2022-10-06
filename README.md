@@ -8,13 +8,15 @@ Première semaine d'octobre 2022
 
 Groupe : Anthony, Nils, Juliette, Jeremy & Julien
 
-### 📎 Vidéo de démonstration :
+### 📎 Notre problématique :
 
-à venir
+Gel dans le vignoble : quelle est la solution pour protéger ses vignes ?
 
 ### 📌 Consignes du projet :
 
 L'étendu du réseau internet en France métropolitaine a facilité la migration des familles qui quittent la ville pour vivre à la campagne et travailler à distance. La crise sanitaire a favorisé cet environnement de travail qui bénéficie notamment le secteur de service.
+Qu'en est-il de nos campagnes et de nos agriculteurs, éleveurs, horticulteurs et en général tous les acteurs liés à la production alimentaire ? Comment les nouvelles technologies pourraient les aider à mieux travailler en tenant en compte toutes les variables des métiers en lien avec la nature ? Comment peut-on créer une smart camapagne ?
+Les propositions peuvent toucher n'importe quel type d'activité agricole. La solution idéale serait un prototype en état de marche ou une proposition avec une analyse complète et pertinente avec les contraintes technologiques mises en place. Vous pouvez aussi penser à une application développée selon les directives de l'éco-conception. Les contraintes à tenir en compte : viabilité de la solution (prix, taille de l'appareillage, connectivité, analyse du marché), l'intérêt de votre solution (retombées écologiques, allégement du travail, ...).
 
 
 LIVRABLES ATTENDUS
