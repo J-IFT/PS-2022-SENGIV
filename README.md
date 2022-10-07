@@ -59,7 +59,7 @@ Afin de permettre une meilleure évaluation des rendus des équipes gagnantes pa
 
 ### 💻 Applications et langages utilisés :
 
-+ Visual studio code, Tinkercad, ESP
++ Visual studio code, Tinkercad, ESP8266 avec capteur LM35
 + C++, C
 
 
