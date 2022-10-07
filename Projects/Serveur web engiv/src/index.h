@@ -13,6 +13,7 @@ const char MAIN_page[] PROGMEM = R"=====(
         <div class="Tuyaux">Tuyau 1 : Vitis labrusca
         <br><br>
           <br> Température : <span id="Capteur">NA</span>°C <br>
+          <br> Humidité : 64% <br>
         <br><br>
             <label class="switch">
               <input type="checkbox">
@@ -23,6 +24,7 @@ const char MAIN_page[] PROGMEM = R"=====(
         <div class="Tuyaux">Tuyau 2 : Vitis rupestris
         <br><br>
           <br> Température : <span id="Capteur1">NA</span>°C <br>
+          <br> Humidité : 56% <br>
         <br><br>
           <label class="switch">
               <input type="checkbox">
@@ -33,6 +35,7 @@ const char MAIN_page[] PROGMEM = R"=====(
         <div class="Tuyaux">Tuyau 3 : Vitis berlandieri
         <br><br>
           <br> Température : <span id="Capteur2">NA</span>°C <br>
+          <br> Humidité : 87% <br>
         <br><br>
           <label class="switch">
               <input type="checkbox">
@@ -40,15 +43,6 @@ const char MAIN_page[] PROGMEM = R"=====(
           </label>
         </div>
         <br><br>
-        <div class="Tuyaux">Tuyau 4 : Vitis aestivalis
-        <br><br>
-          <br> Température : <span id="Capteur3">NA</span>°C <br>
-        <br><br>
-          <label class="switch">
-              <input type="checkbox">
-              <span class="slider round"></span>
-          </label>
-        </div>
       </div>
 
     </body>
@@ -81,8 +75,6 @@ function getData() {
       document.getElementById("Capteur1").innerHTML =
       this.responseText;
       document.getElementById("Capteur2").innerHTML =
-      this.responseText;
-      document.getElementById("Capteur3").innerHTML =
       this.responseText;
     }
   };

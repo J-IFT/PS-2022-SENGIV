@@ -16,6 +16,8 @@
 // Data wire is plugged into port D2 on the Arduino
 #define ONE_WIRE_BUS 4
 
+const int LEDBLEUE = 2;
+
 // Setup a oneWire instance to communicate with any OneWire devices (not just Maxim/Dallas temperature ICs)
 OneWire oneWire(ONE_WIRE_BUS);
 
@@ -61,6 +63,7 @@ void setup() {
   // Initialize the output variables as outputs
   pinMode(output5, OUTPUT);
   pinMode(output4, OUTPUT);
+  pinMode(LEDBLEUE, OUTPUT);
   // Set outputs to LOW
   digitalWrite(output5, LOW);
   digitalWrite(output4, LOW);
@@ -89,6 +92,7 @@ void loop(){
   server.handleClient();
   sensors.requestTemperatures(); // Send the command to get temperatures
   Serial.println(sensors.getTempCByIndex(0));
+  digitalWrite(LEDBLEUE, LOW);
 
   // WiFiClient client = server.available();   // Listen for incoming clients
 

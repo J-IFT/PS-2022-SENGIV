@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../SENGIV"
+		},
+		{
+			"name": "Serveur web engiv",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
