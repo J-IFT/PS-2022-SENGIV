@@ -25,8 +25,8 @@ OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
 // Replace with your network credentials
-const char* ssid     = "Le J c'est le S";
-const char* password = "eyvq9619381";
+const char* ssid     = "";
+const char* password = "";
 
 // Set web server port number to 80
 ESP8266WebServer server(80);
